@@ -12,7 +12,7 @@ theme_set(theme_minimal())
 setwd("/Users/ramse/PycharmProjects/DSC-640-Data-Presentation-and-Visualization/Weeks 3-4")
 #C:\Users\ramse\PycharmProjects\DSC-640-Data-Presentation-and-Visualization\Weeks 3-4
 
-# Load the cpopulation data and create a line chart
+# Load the population data and create a line chart
 population_df <- read_excel("world-population.xlsm")
 head(population_df)
 ggplot(population_df,aes(x = Year, y = Population)) + geom_line() + 
